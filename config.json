@@ -1,0 +1,120 @@
+{ 
+    "general": {
+        "prefix": ".",
+        "community": "Exhibition",
+        "activity": "ExhibitionRP | .help",
+        "color": 7506394,
+        "greeting": "Welcome to the Exhibition Roleplay discord server, we hope you have a lovely time here. Make sure to check out the rules and announcements channels for recent information. To get a full list of my available commands, use the `.help` command. If you need any additional assistance then please use the `.ticket` command to contact our Support Team.",
+        "data": {
+            "tickets": 0,
+            "reports": 0
+        },
+        "generateData": false
+    },
+    "auth": {
+        "redirect": "https://www.exhibitionrp.com",
+        "role": "850268498625560616",
+        "realm": "api.exhibitionrp.com"
+    },
+    "stats": {
+        "groupID": "103582791456526482",
+        "discordID": "405937832600010752",
+        "gameInterval": 60000,
+        "steamInterval": 600000,
+        "channelDRP": "593556051094142996",
+        "channelMBRP": "593556075698061412",
+        "channelPRP": "796787677914595359",
+        "channelRust": "797192406045818900",
+        "channelSteam": "593556169620979718",
+        "channelDiscord": "593556126075715586",
+        "channelMelonBomber": "831262482949210122",
+        "channelPrisonRP": "993196786414010408"
+    },
+    "voting": {
+        "channels": [
+            "405945009422991370",
+            "575783902325768202",
+            "606544972178522191"
+        ],
+        "yes": "exhibitionYes",
+        "no": "exhibitionNo"
+    },
+    "sale": {
+        "interval": 60000,
+        "endpoint": "https://credits.exhibitionrp.com/api/sale"
+    },
+    "bans": {
+        "channel": "718810309430738944"
+    },
+    "reports": {
+        "channel": "718810463697371147",
+        "list": "5ea3b00d3c1ad909d1487f1d",
+        "allowed": [
+            "124477721437929472",
+            "291398109370646529",
+            "133139108003315712",
+            "155149417823993856"
+        ],
+        "ping": false,
+        "remove": false
+    },
+    "commits": {
+        "channel": "553654969149030410",
+        "imageLab": "https://i.imgur.com/2rRT4SQ.png",
+        "imageHub": "https://i.imgur.com/DvFKbht.png"
+    },
+    "relay": {
+        "channel": "718812449779875911"
+    },
+    "ticket": {
+        "category": "593560140351799308",
+        "channel": "718811018494476288",
+        "role": "593561200588226575"
+    },
+    "react": {
+        "channel": "722963831445389332",
+        "list": {
+            "DarkRP": [
+                "darkrp",
+                "722962797629014118",
+                "722950242647015505"
+            ],
+            
+            "MBRP": [
+                "dank",
+                "408734864838361088",
+                "722949967974760500"
+            ],
+    
+            "PoliceRP": [
+                "police",
+                "722962846643781654",
+                "722950050417737788"
+            ],
+    
+            "Updates": [
+                "exhibition",
+                "405951438364344320",
+                "722950409739698286"
+            ]
+        }
+    },
+    "roles": {
+        "list": {
+            "vip_drp": "405941894221135884",
+            "vipplus_drp": "405941919479496714",
+            "exhibitionist_drp": "405941853192454145",
+            "vip_mbrp": "434483923733577728",
+            "vipplus_mbrp": "434484176591388672",
+            "exhibitionist_mbrp": "550504850538889217",
+            "vip_prp": "515280675243556865",
+            "vipplus_prp": "515280516107337729",
+            "exhibitionist_prp": "515280054943744010"
+        }
+    },
+    "mute": {
+        "role": "405944693554282497",
+        "interval": 60000,
+        "allowed": ["405942407071399939"]
+    }
+}
