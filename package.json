@@ -1,0 +1,48 @@
+{
+  "name": "community-bot",
+  "version": "1.0.0",
+  "description": "Discord.js bot created for Exhibition Roleplay.",
+  "main": "./dist/index",
+  "scripts": {
+    "build": "tsc",
+    "production": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "SaturdaysHeroes.xyz",
+  "license": "ISC",
+  "dependencies": {
+    "@types/gamedig": "^2.0.1",
+    "@types/mysql": "^2.15.19",
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "crypto": "^1.0.1",
+    "discord.js": "^13.2.0",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "fast-xml-parser": "^3.20.3",
+    "gamedig": "^2.0.28",
+    "helmet": "^3.23.3",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-steam": "^1.0.16",
+    "path": "^0.12.7",
+    "reflect-metadata": "^0.1.13",
+    "steam-group": "^0.2.2",
+    "steam-web": "^0.7.0",
+    "steamapi": "^2.1.3",
+    "steamid": "^1.1.3",
+    "trello": "^0.10.0",
+    "ts-node": "^9.1.1",
+    "typeorm": "^0.2.38",
+    "typescript": "^4.4.3",
+    "ws": "^7.5.5"
+  },
+  "devDependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "@types/node": "^14.17.21"
+  }
+}

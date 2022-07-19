@@ -1,1 +1,5 @@
-# exhibition-bot-2
+### Exhibition Bot
+The project uses Discord.js for it's bot functionality and Express with a handful of libraries for the API services. One of the more notable features is an authentication system created with Passport, it allows users to connect their Discord and Steam accounts together and retrieve information from gameservers. The bot also features a chat relay buit with web sockets which syncs all messages and creates a chat between all gameservers and the Discord. Less notable features include a support ticket system, reaction roles, server statistics, bug reports pushed from an in-game panel which are automatically sent to a Trello board and a REST API to retrieve information about users.
+
+### Installation 
+Fill out all of the environment variables located in `.env.example` and configure the bot in the `config.json` file. Next, run `npm run build` in order to build the project. After that, simply run `npm run production` to start the bot. You can also run the bot in dev mode using `npm run dev`. 
